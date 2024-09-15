@@ -66,7 +66,7 @@ class HamsterKombat:
                     base.log(f"{base.red}Error: {base.white}{e}")
 
             print()
-            wait_time = random.randint(5, 20)
+            wait_time = random.randint(600, 1000)
             base.log(f"{base.yellow}Wait for {wait_time} seconds!")
             time.sleep(wait_time)
 
